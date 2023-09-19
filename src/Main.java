@@ -22,10 +22,8 @@ public class Main {
         else{
             for(int y = 0; y < size ; y++) {
                 System.out.printf("%"+((size-y) + 3)+"s", "   ");
-
                 for(int x = 0; x <= y; x++) {
-                    System.out.print(fillChar + " ");
-                }
+                    System.out.print(" "+fillChar );}
                 System.out.print(" \n");
             }
         }
