@@ -53,5 +53,9 @@ public class Main {
         }
         //Prints a newline at the end of every triangle
         System.out.println("\n");
+        //Calculates area of triangle
+        double area = (Math.sqrt(3)/ 4) * Math.pow(size,2);
+        System.out.println("The area of your triangle is " + area +"² Units");
+
     }
 }
